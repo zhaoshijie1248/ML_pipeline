@@ -8,4 +8,11 @@ stages:
       - artifacts/data/processed
     params:
       - data
-  
+  build-features:
+    cmd: bin/build-features
+    deps:
+      - artifacts/data/processed
+      - bin/build-features
+    outs:
+      - artifacts/features
+    

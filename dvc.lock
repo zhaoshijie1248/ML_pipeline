@@ -22,3 +22,21 @@ stages:
       md5: a93f385a3bf967bfe9b740da91de9b72.dir
       size: 48304
       nfiles: 4
+  build-features:
+    cmd: bin/build-features
+    deps:
+    - path: artifacts/data/processed
+      hash: md5
+      md5: a93f385a3bf967bfe9b740da91de9b72.dir
+      size: 48304
+      nfiles: 4
+    - path: bin/build-features
+      hash: md5
+      md5: 020d9c44ea8ffc185d1f8696035e31d8
+      size: 464
+    outs:
+    - path: artifacts/features
+      hash: md5
+      md5: d7d0d18e61850d0c8a7b2b7d8ac7d705.dir
+      size: 29896
+      nfiles: 2
