@@ -1,0 +1,21 @@
+#!/usr/bin/env python
+ 
+from bodyfat import Config, Dataset, train_model
+ 
+ 
+def main():
+    train_dataset = Dataset.read_from_paths(
+        Config.Path.FEATURES_DIR / "features_train.parquet",
+        Config.Path.DATA_DIR / "processed" / "labels_train.parquet",
+    )
+    test_dataset = Dataset.read_from_paths(
+        Config.Path.FEATURES_DIR / "features_test.parquet",
+        Config.Path.DATA_DIR / "processed" / "labels_test.parquet",
+    )
+    train_model(train_dataset, test_dataset)
+ 
+ 
+if __name__ == "__main__":
+    main()
+
+# dos2unix /mnt/c/Github-Projects/ML_pipeline/bin/train-model
