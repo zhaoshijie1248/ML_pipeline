@@ -1,0 +1,951 @@
+3shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ which poetry
+/home/shijie/.local/bin/poetry
+shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ poetry --version
+Poetry (version 1.8.3)
+shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ poetry env use 3.11.8
+Creating virtualenv bodyfat-guHOq8YH-py3.11 in /home/shijie/.cache/pypoetry/virtualenvs
+Using virtualenv: /home/shijie/.cache/pypoetry/virtualenvs/bodyfat-guHOq8YH-py3.11
+shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ poetry install
+Updating dependencies
+Resolving dependencies... (12.5s)^C
+shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ poetry install
+Updating dependencies
+Resolving dependencies... (19.1s)
+
+Package operations: 191 installs, 1 update, 0 removals
+
+  - Installing attrs (23.2.0)
+  - Installing rpds-py (0.18.1)
+  - Installing referencing (0.35.1)
+  - Installing six (1.16.0)
+  - Installing frozenlist (1.4.1)
+  - Installing idna (3.7)
+  - Installing jsonschema-specifications (2023.12.1)
+  - Installing multidict (6.0.5)
+  - Installing platformdirs (3.11.0)
+  - Installing pycparser (2.22)
+  - Installing python-dateutil (2.9.0.post0)
+  - Installing traitlets (5.14.3)
+  - Installing types-python-dateutil (2.9.0.20240316)
+  - Installing aiosignal (1.3.1)
+  - Installing arrow (1.3.0)
+  - Installing cffi (1.16.0)
+  - Installing fastjsonschema (2.20.0)
+  - Installing jsonschema (4.22.0)
+  - Installing jupyter-core (5.7.2)
+  - Installing mdurl (0.1.2)
+  - Installing pyzmq (26.0.3)
+  - Installing smmap (5.0.1)
+  - Installing tornado (6.4.1)
+  - Installing vine (5.1.0)
+  - Installing wcwidth (0.2.13)
+  - Installing yarl (1.9.4)
+  - Installing aiohttp (3.9.5)
+  - Installing amqp (5.2.0)
+  - Installing click (8.1.7)
+  - Installing cryptography (42.0.8)
+  - Installing fqdn (1.5.1)
+  - Installing gitdb (4.0.11)
+  - Installing isoduration (20.11.0)
+  - Installing jsonpointer (3.0.0)
+  - Installing jupyter-client (8.6.2)
+  - Installing markdown-it-py (3.0.0)
+  - Installing markupsafe (2.1.5)
+  - Installing nbformat (5.10.4)
+  - Installing prompt-toolkit (3.0.47)
+  - Installing ptyprocess (0.7.0)
+  - Installing pygments (2.18.0)
+  - Installing rfc3339-validator (0.1.4)
+  - Installing rfc3986-validator (0.1.1)
+  - Installing soupsieve (2.5)
+  - Installing tqdm (4.66.4)
+  - Installing typing-extensions (4.12.2)
+  - Installing uri-template (1.3.0)
+  - Installing urllib3 (2.2.2)
+  - Installing webcolors (24.6.0)
+  - Installing webencodings (0.5.1)
+  - Installing aiohttp-retry (2.8.3)
+  - Installing annotated-types (0.7.0)
+  - Installing antlr4-python3-runtime (4.9.3): Preparing...                                                                                                                 
+  - Installing argon2-cffi-bindings (21.2.0)                                                                                                                                
+  - Installing asttokens (2.4.1)                                                                                                                                            
+  - Installing asyncssh (2.14.2): Downloading... 80%
+  - Installing beautifulsoup4 (4.12.3)
+  - Installing billiard (4.2.0)
+  - Installing beautifulsoup4 (4.12.3)
+  - Installing billiard (4.2.0)
+  - Installing asyncssh (2.14.2): Downloading... 100%
+  - Installing beautifulsoup4 (4.12.3)
+  - Installing billiard (4.2.0)
+  - Installing bleach (6.1.0)
+  - Installing certifi (2024.6.2)
+  - Installing charset-normalizer (3.3.2)
+  - Installing click-didyoumean (0.3.1)
+  - Installing beautifulsoup4 (4.12.3)
+  - Installing billiard (4.2.0)
+  - Installing bleach (6.1.0)
+  - Installing certifi (2024.6.2)
+  - Installing charset-normalizer (3.3.2)
+  - Installing click-didyoumean (0.3.1)
+  - Installing asyncssh (2.14.2): Installing...
+  - Installing beautifulsoup4 (4.12.3)
+  - Installing billiard (4.2.0)
+  - Installing bleach (6.1.0)
+  - Installing certifi (2024.6.2)
+  - Installing charset-normalizer (3.3.2)
+  - Installing click-didyoumean (0.3.1)
+  - Installing click-plugins (1.1.1)
+  - Installing click-repl (0.3.0)
+  - Installing defusedxml (0.7.1)
+  - Installing dulwich (0.22.1): Downloading... 40%
+  - Installing dulwich (0.22.1): Downloading... 50%
+  - Installing beautifulsoup4 (4.12.3)
+  - Installing billiard (4.2.0)
+  - Installing bleach (6.1.0)
+  - Installing certifi (2024.6.2)
+  - Installing charset-normalizer (3.3.2)
+  - Installing click-didyoumean (0.3.1)
+  - Installing click-plugins (1.1.1)
+  - Installing click-repl (0.3.0)
+  - Installing defusedxml (0.7.1)
+  - Installing dulwich (0.22.1): Downloading... 50%
+  - Installing asyncssh (2.14.2)
+  - Installing beautifulsoup4 (4.12.3)
+  - Installing billiard (4.2.0)
+  - Installing bleach (6.1.0)
+  - Installing certifi (2024.6.2)
+  - Installing charset-normalizer (3.3.2)
+  - Installing click-didyoumean (0.3.1)
+  - Installing click-plugins (1.1.1)
+  - Installing click-repl (0.3.0)
+  - Installing defusedxml (0.7.1)
+  - Installing dulwich (0.22.1): Downloading... 50%
+  - Installing dulwich (0.22.1): Downloading... 80%
+  - Installing dulwich (0.22.1): Downloading... 100%
+  - Installing dulwich (0.22.1): Installing...
+  - Installing dulwich (0.22.1)
+  - Installing argon2-cffi-bindings (21.2.0)
+  - Installing asttokens (2.4.1)
+  - Installing asyncssh (2.14.2)
+  - Installing beautifulsoup4 (4.12.3)
+  - Installing billiard (4.2.0)
+  - Installing bleach (6.1.0)
+  - Installing certifi (2024.6.2)
+  - Installing charset-normalizer (3.3.2)
+  - Installing click-didyoumean (0.3.1)
+  - Installing click-plugins (1.1.1)
+  - Installing click-repl (0.3.0)
+  - Installing defusedxml (0.7.1)
+  - Installing dulwich (0.22.1)
+  - Installing antlr4-python3-runtime (4.9.3): Installing...
+  - Installing argon2-cffi-bindings (21.2.0)
+  - Installing asttokens (2.4.1)
+  - Installing asyncssh (2.14.2)
+  - Installing beautifulsoup4 (4.12.3)
+  - Installing billiard (4.2.0)
+  - Installing bleach (6.1.0)
+  - Installing certifi (2024.6.2)
+  - Installing charset-normalizer (3.3.2)
+  - Installing click-didyoumean (0.3.1)
+  - Installing click-plugins (1.1.1)
+  - Installing click-repl (0.3.0)
+  - Installing defusedxml (0.7.1)
+  - Installing dulwich (0.22.1)
+  - Installing argon2-cffi-bindings (21.2.0)
+  - Installing asttokens (2.4.1)
+  - Installing asyncssh (2.14.2)
+  - Installing beautifulsoup4 (4.12.3)
+  - Installing billiard (4.2.0)
+  - Installing bleach (6.1.0)
+  - Installing certifi (2024.6.2)
+  - Installing charset-normalizer (3.3.2)
+  - Installing click-didyoumean (0.3.1)
+  - Installing click-plugins (1.1.1)
+  - Installing click-repl (0.3.0)
+  - Installing defusedxml (0.7.1)
+  - Installing dulwich (0.22.1)
+  - Installing antlr4-python3-runtime (4.9.3)
+  - Installing argon2-cffi-bindings (21.2.0)
+  - Installing asttokens (2.4.1)
+  - Installing asyncssh (2.14.2)
+  - Installing beautifulsoup4 (4.12.3)
+  - Installing billiard (4.2.0)
+  - Installing bleach (6.1.0)
+  - Installing certifi (2024.6.2)
+  - Installing charset-normalizer (3.3.2)
+  - Installing click-didyoumean (0.3.1)
+  - Installing click-plugins (1.1.1)
+  - Installing click-repl (0.3.0)
+  - Installing defusedxml (0.7.1)
+  - Installing dulwich (0.22.1)
+  - Installing executing (2.0.1)
+  - Installing fsspec (2024.6.1)
+  - Installing funcy (2.0)
+  - Installing gitpython (3.1.43)
+  - Installing jinja2 (3.1.4)
+  - Installing jupyterlab-pygments (0.3.0)
+  - Installing kombu (5.3.7)
+  - Installing mistune (3.0.2)
+  - Installing nbclient (0.10.0)
+  - Installing orjson (3.10.6)
+  - Installing packaging (24.1)
+  - Installing pandocfilters (1.5.1)
+  - Installing parso (0.8.4)
+  - Installing pathspec (0.12.1)
+  - Installing pure-eval (0.2.2)
+  - Installing pydantic-core (2.20.0)
+  - Installing pygit2 (1.15.0)
+  - Installing pygtrie (2.5.0)
+  - Installing python-json-logger (2.0.7)
+  - Installing pyyaml (6.0.1)
+  - Installing rich (13.7.1)
+  - Installing ruamel-yaml-clib (0.2.8)
+  - Installing shellingham (1.5.4)
+  - Installing sniffio (1.3.1)
+  - Installing terminado (0.18.1)
+  - Installing tinycss2 (1.3.0)
+  - Installing tzdata (2024.1)
+  - Installing anyio (4.4.0): Installing...
+  - Installing appdirs (1.4.4)
+  - Installing argon2-cffi (23.1.0)
+  - Installing atpublic (4.1.0)
+  - Installing appdirs (1.4.4)
+  - Installing argon2-cffi (23.1.0)
+  - Installing atpublic (4.1.0)
+  - Installing anyio (4.4.0)
+  - Installing appdirs (1.4.4)
+  - Installing argon2-cffi (23.1.0)
+  - Installing atpublic (4.1.0)
+  - Installing celery (5.4.0): Downloading... 40%
+  - Installing decorator (5.1.1)
+  - Installing dictdiffer (0.9.0)
+  - Installing diskcache (5.6.3)
+  - Installing decorator (5.1.1)
+  - Installing dictdiffer (0.9.0)
+  - Installing diskcache (5.6.3)
+  - Installing celery (5.4.0): Downloading... 60%
+  - Installing decorator (5.1.1)
+  - Installing dictdiffer (0.9.0)
+  - Installing diskcache (5.6.3)
+  - Installing distro (1.9.0)
+  - Installing dvc-objects (5.1.0)
+  - Installing entrypoints (0.4)
+  - Installing filelock (3.15.4)
+  - Installing decorator (5.1.1)
+  - Installing dictdiffer (0.9.0)
+  - Installing diskcache (5.6.3)
+  - Installing distro (1.9.0)
+  - Installing dvc-objects (5.1.0)
+  - Installing entrypoints (0.4)
+  - Installing filelock (3.15.4)
+  - Installing celery (5.4.0): Downloading... 80%
+  - Installing decorator (5.1.1)
+  - Installing dictdiffer (0.9.0)
+  - Installing diskcache (5.6.3)
+  - Installing distro (1.9.0)
+  - Installing dvc-objects (5.1.0)
+  - Installing entrypoints (0.4)
+  - Installing filelock (3.15.4)
+  - Installing decorator (5.1.1)
+  - Installing dictdiffer (0.9.0)
+  - Installing diskcache (5.6.3)
+  - Installing distro (1.9.0)
+  - Installing dvc-objects (5.1.0)
+  - Installing entrypoints (0.4)
+  - Installing filelock (3.15.4)
+  - Installing celery (5.4.0): Downloading... 100%
+  - Installing decorator (5.1.1)
+  - Installing dictdiffer (0.9.0)
+  - Installing diskcache (5.6.3)
+  - Installing distro (1.9.0)
+  - Installing dvc-objects (5.1.0)
+  - Installing entrypoints (0.4)
+  - Installing filelock (3.15.4)
+  - Installing decorator (5.1.1)
+  - Installing dictdiffer (0.9.0)
+  - Installing diskcache (5.6.3)
+  - Installing distro (1.9.0)
+  - Installing dvc-objects (5.1.0)
+  - Installing entrypoints (0.4)
+  - Installing filelock (3.15.4)
+  - Installing celery (5.4.0): Installing...
+  - Installing decorator (5.1.1)
+  - Installing dictdiffer (0.9.0)
+  - Installing diskcache (5.6.3)
+  - Installing distro (1.9.0)
+  - Installing dvc-objects (5.1.0)
+  - Installing entrypoints (0.4)
+  - Installing filelock (3.15.4)
+  - Installing decorator (5.1.1)
+  - Installing dictdiffer (0.9.0)
+  - Installing diskcache (5.6.3)
+  - Installing distro (1.9.0)
+  - Installing dvc-objects (5.1.0)
+  - Installing entrypoints (0.4)
+  - Installing filelock (3.15.4)
+  - Installing celery (5.4.0)
+  - Installing decorator (5.1.1)
+  - Installing dictdiffer (0.9.0)
+  - Installing diskcache (5.6.3)
+  - Installing distro (1.9.0)
+  - Installing dvc-objects (5.1.0)
+  - Installing entrypoints (0.4)
+  - Installing filelock (3.15.4)
+  - Installing h11 (0.14.0)
+  - Installing jedi (0.19.1)
+  - Installing jupyter-events (0.10.0)
+  - Installing jupyter-server-terminals (0.5.3)
+  - Installing matplotlib-inline (0.1.7)
+  - Installing nbconvert (7.16.4)
+  - Installing numpy (1.26.4)
+  - Installing omegaconf (2.3.0)
+  - Installing overrides (7.7.0)
+  - Installing pexpect (4.9.0)
+  - Installing prometheus-client (0.20.0)
+  - Installing psutil (6.0.0)
+  - Installing pydantic (2.8.0)
+  - Installing pyparsing (3.1.2)
+  - Installing requests (2.32.3)
+  - Installing ruamel-yaml (0.18.6)
+  - Installing scmrepo (3.3.5)
+  - Installing semver (3.0.2)
+  - Installing send2trash (1.8.3)
+  - Updating setuptools (70.1.0 -> 70.2.0)
+  - Installing shortuuid (1.0.13)
+  - Installing sqltrie (0.11.0)
+  - Installing stack-data (0.6.3)
+  - Installing tabulate (0.9.0)
+  - Installing typer (0.12.3)
+  - Installing voluptuous (0.15.2)
+  - Installing websocket-client (1.8.0)
+  - Installing babel (2.15.0): Downloading... 0%                                                                                                                            
+  - Installing colorama (0.4.6)                                                                                                                                             
+  - Installing comm (0.2.2)                                                                                                                                                 
+  - Installing configobj (5.0.8)                                                                                                                                            
+  - Installing contourpy (1.2.1): Downloading... 40%
+  - Installing cycler (0.12.1)
+  - Installing cycler (0.12.1)
+  - Installing contourpy (1.2.1): Downloading... 70%
+  - Installing cycler (0.12.1)
+  - Installing cycler (0.12.1)
+  - Installing contourpy (1.2.1): Downloading... 100%
+  - Installing cycler (0.12.1)
+  - Installing cycler (0.12.1)
+  - Installing contourpy (1.2.1): Installing...
+  - Installing cycler (0.12.1)
+  - Installing cycler (0.12.1)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing babel (2.15.0): Downloading... 10%
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing babel (2.15.0): Downloading... 20%
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing babel (2.15.0): Downloading... 30%
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing babel (2.15.0): Downloading... 40%
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing babel (2.15.0): Downloading... 60%
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing babel (2.15.0): Downloading... 80%
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing babel (2.15.0): Downloading... 100%
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing babel (2.15.0): Installing...
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing babel (2.15.0)
+  - Installing colorama (0.4.6)
+  - Installing comm (0.2.2)
+  - Installing configobj (5.0.8)
+  - Installing contourpy (1.2.1)
+  - Installing cycler (0.12.1)
+  - Installing debugpy (1.8.2)
+  - Installing dpath (2.2.0)
+  - Installing dvc-data (3.15.1)
+  - Installing dvc-http (2.32.0)
+  - Installing dvc-render (1.0.2)
+  - Installing dvc-studio-client (0.21.0)
+  - Installing dvc-task (0.4.0)
+  - Installing flatten-dict (0.4.2)
+  - Installing flufl-lock (7.1.1)
+  - Installing fonttools (4.53.0)
+  - Installing grandalf (0.8)
+  - Installing gto (1.7.1)
+  - Installing httpcore (1.0.5)
+  - Installing ipython (8.26.0)
+  - Installing hydra-core (1.3.2)
+  - Installing iterative-telemetry (0.0.8)
+  - Installing jupyter-server (2.14.1)
+  - Installing json5 (0.9.25)
+  - Installing kiwisolver (1.4.5)
+  - Installing nest-asyncio (1.6.0)
+  - Installing networkx (3.3)
+  - Installing pillow (10.4.0)
+  - Installing pydot (2.0.0)
+  - Installing pytz (2024.1)
+  - Installing shtab (1.7.1)
+  - Installing tomlkit (0.12.5)
+  - Installing zc-lockfile (3.0.post1)
+  - Installing async-lru (2.0.4)
+  - Installing cramjam (2.8.3)
+  - Installing dvc (3.51.2)
+  - Installing httpx (0.27.0)
+  - Installing ipykernel (6.29.5)
+  - Installing joblib (1.4.2)
+  - Installing jupyter-lsp (2.2.5)
+  - Installing jupyterlab-server (2.27.2)
+  - Installing matplotlib (3.9.0)
+  - Installing notebook-shim (0.2.4)
+  - Installing nvidia-nccl-cu12 (2.22.3)
+  - Installing pandas (2.2.2)
+  - Installing pynvml (11.5.0)
+  - Installing scipy (1.14.0)
+  - Installing starlette (0.37.2)
+  - Installing threadpoolctl (3.5.0)
+  - Installing dvclive (3.46.1)
+  - Installing fastapi (0.110.3)
+  - Installing fastparquet (2024.5.0)
+  - Installing jupyterlab (4.2.3)
+  - Installing pyarrow (15.0.2)
+  - Installing python-box (5.4.1)
+  - Installing ruff (0.3.7)
+  - Installing scikit-learn (1.5.0)
+  - Installing seaborn (0.13.2)
+  - Installing uvicorn (0.29.0)
+  - Installing xgboost (2.1.0)
+
+Writing lock file
+
+Installing the current project: bodyfat (0.1.0)
+shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ poetry shell
+Spawning shell within /home/shijie/.cache/pypoetry/virtualenvs/bodyfat-guHOq8YH-py3.11
+shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ . /home/shijie/.cache/pypoetry/virtualenvs/bodyfat-guHOq8YH-py3.11/bin/activate
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ python -m ipykernel install --user --name bodyfat --display-name "Python (bodyfat)"
+Installed kernelspec bodyfat in /home/shijie/.local/share/jupyter/kernels/bodyfat
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc init
+Initialized DVC repository.
+
+You can now commit the changes to git.
+
++---------------------------------------------------------------------+
+|                                                                     |
+|        DVC has enabled anonymous aggregate usage analytics.         |
+|     Read the analytics documentation (and how to opt-out) here:     |
+|             <https://dvc.org/doc/user-guide/analytics>              |
+|                                                                     |
++---------------------------------------------------------------------+
+
+What's next?
+------------
+- Check out the documentation: <https://dvc.org/doc>
+- Get help and share ideas: <https://dvc.org/chat>
+- Star us on GitHub: <https://github.com/iterative/dvc>
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc remote add -d local-remote /tmp/dvcstore
+Setting 'local-remote' as a default remote.
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ DVC STATUS
+DVC: command not found
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc status
+There are no data or pipelines tracked in this project yet.
+See <https://dvc.org/doc/start> to get started!
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc dag --md
+'./dvc.yaml' validation failed: 3 errors.
+
+expected a dictionary, in stages -> build-dataset, line 2, column 3
+  1 stages:
+  2   build-dataset: ...
+  3   build-features: ...
+
+expected a dictionary, in stages -> build-features, line 2, column 3
+  1 stages:
+  2   build-dataset: ...
+  3   build-features: ...
+
+expected a dictionary, in stages -> train-model, line 2, column 3
+  1 stages:
+  2   build-dataset: ...
+  3   build-features: ...
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc reoro build-dataset
+ERROR: argument command: invalid choice: 'reoro' (choose from 'add', 'artifacts', 'cache', 'check-ignore', 'checkout', 'commit', 'completion', 'config', 'daemon', 'dag', 'data', 'pull', 'push', 'fetch', 'status', 'dataset', 'ds', 'destroy', 'diff', 'du', 'experiments', 'exp', 'freeze', 'unfreeze', 'gc', 'get', 'get-url', 'git-hook', 'import', 'import-db', 'test-db', 'import-url', 'init', 'install', 'list', 'ls', 'list-url', 'ls-url', 'metrics', 'move', 'mv', 'params', 'plots', 'queue', 'remote', 'remove', 'rm', 'repro', 'root', 'stage', 'studio', 'unprotect', 'update', 'version', 'doctor')
+usage: dvc [-q | -v] [-h] [-V] [--cd <path>] command ...
+
+Data Version Control
+
+options:
+  -q, --quiet        Be quiet.
+  -v, --verbose      Be verbose.
+  -h, --help         Show this help message and exit.
+  -V, --version      Show program's version.
+  --cd <path>        Change to directory before executing.
+
+Available Commands:
+  command            Use `dvc command --help` for command-specific help.
+    add              Track data files or directories with DVC.
+    artifacts        DVC model registry artifact commands.
+    cache            Manage cache settings.
+    check-ignore     Check whether files or directories are excluded due to `.dvcignore`.
+    checkout         Checkout data files from cache.
+    commit           Record changes to files or directories tracked by DVC by storing the current versions in the cache.
+    completion       Generate shell tab completion.
+    config           Get or set config options.
+    dag              Visualize DVC project DAG.
+    pull             Download tracked files or directories from remote storage.
+    push             Upload tracked files or directories to remote storage.
+    fetch            Download files or directories from remote storage to the cache.
+    status           Show changed stages, compare local cache and a remote storage.
+    destroy          Remove DVC files, local DVC config and data cache.
+    diff             Show added, modified, or deleted data between commits in the DVC repository, or between a commit and the workspace.
+    du               Show disk usage.
+    experiments (exp)
+                     Commands to run and compare experiments.
+    freeze           Freeze stages or .dvc files.
+    unfreeze         Unfreeze stages or .dvc files.
+    gc               Garbage collect unused objects from cache or remote storage.
+    get              Download file or directory tracked by DVC or by Git.
+    get-url          Download or copy files from URL.
+    import           Download file or directory tracked by DVC or by Git into the workspace, and track it.
+    import-db        Snapshot a table or a SQL query result to a CSV/JSON format
+    import-url       Download or copy file from URL and take it under DVC control.
+    init             Initialize DVC in the current directory.
+    install          Install DVC git hooks into the repository.
+    list (ls)        List repository contents, including files and directories tracked by DVC and by Git.
+    list-url (ls-url)
+                     List directory contents from URL.
+    metrics          Commands to display and compare metrics.
+    move (mv)        Rename or move a DVC controlled data file or a directory.
+    params           Commands to display params.
+    plots            Commands to visualize and compare plot data.
+    queue            Commands to manage experiments queue.
+    remote           Set up and manage data remotes.
+    remove (rm)      Remove stages from dvc.yaml and/or stop tracking files or directories.
+    repro            Reproduce complete or partial pipelines by executing their stages.
+    root             Return the relative path to the root of the DVC project.
+    stage            Commands to list and create stages.
+    studio           Commands to authenticate DVC with Iterative Studio
+    unprotect        Unprotect tracked files or directories (when hardlinks or symlinks have been enabled with `dvc config cache.type`).
+    update           Update data artifact imported (via dvc import or dvc import-url) from an external DVC repository or URL.
+    version (doctor)
+                     Display the DVC version and system/environment information.
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-dataset
+'./dvc.yaml' validation failed: 3 errors.
+
+expected a dictionary, in stages -> build-dataset, line 2, column 3
+  1 stages:
+  2   build-dataset: ...
+  3   build-features: ...
+
+expected a dictionary, in stages -> build-features, line 2, column 3
+  1 stages:
+  2   build-dataset: ...
+  3   build-features: ...
+
+expected a dictionary, in stages -> train-model, line 2, column 3
+  1 stages:
+  2   build-dataset: ...
+  3   build-features: ...
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-dataset
+ERROR: unable to read: 'params.yaml', YAML file structure is corrupted: while scanning a simple key
+  in "<unicode string>", line 19, column 3
+could not find expected ':'
+  in "<unicode string>", line 20, column 1
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-dataset
+ERROR: failed to reproduce 'build-dataset': [Errno 2] No such file or directory: '/mnt/c/Github-Projects/ML_pipeline/artefacts/data/raw'
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-dataset
+ERROR: failed to reproduce 'build-dataset': [Errno 2] No such file or directory: '/mnt/c/Github-Projects/ML_pipeline/bin/build-dataset'
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ ls
+Develop_model.ipynb              README.md  bin      bodyfat-new-features.db  dvc.yaml   params.yaml  pyproject.toml
+Exploratory_data_analysis.ipynb  artifacts  bodyfat  bodyfat.db               model.pkl  poetry.lock
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ cd bodyfat
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline/bodyfat$ dvc repro build-dataset
+ERROR: 'dvc.yaml' does not exist
+ERROR: failed to reproduce 'build-dataset': failed to run: bin/build-dataset, exited with 127
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ chmod +x bin/build-dataset
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-dataset
+Running stage 'build-dataset':
+> bin/build-dataset
+/usr/bin/env: ‘python\r’: No such file or directory
+ERROR: failed to reproduce 'build-dataset': failed to run: bin/build-dataset, exited with 127
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ sudo apt install dos2unix
+[sudo] password for shijie:
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  dos2unix
+0 upgraded, 1 newly installed, 0 to remove and 168 not upgraded.
+Need to get 384 kB of archives.
+After this operation, 1367 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy/universe amd64 dos2unix amd64 7.4.2-2 [384 kB]
+Fetched 384 kB in 1s (448 kB/s)
+Selecting previously unselected package dos2unix.
+(Reading database ... 44079 files and directories currently installed.)
+Preparing to unpack .../dos2unix_7.4.2-2_amd64.deb ...
+Unpacking dos2unix (7.4.2-2) ...
+Setting up dos2unix (7.4.2-2) ...
+Processing triggers for man-db (2.10.2-1) ...
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dos2unix C:\Github-Projects\ML_pipeline\bin\build-dataset
+dos2unix: C:Github-ProjectsML_pipelinebinbuild-dataset: No such file or directory
+dos2unix: Skipping C:Github-ProjectsML_pipelinebinbuild-dataset, not a regular file.
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dos2unix /mnt/c/Github-Projects/ML_pipeline\bin\build-dataset
+dos2unix: /mnt/c/Github-Projects/ML_pipelinebinbuild-dataset: No such file or directory
+dos2unix: Skipping /mnt/c/Github-Projects/ML_pipelinebinbuild-dataset, not a regular file.
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dos2unix \mnt\c\Github-Projects\ML_pipeline\bin\build-dataset
+dos2unix: mntcGithub-ProjectsML_pipelinebinbuild-dataset: No such file or directory
+dos2unix: Skipping mntcGithub-ProjectsML_pipelinebinbuild-dataset, not a regular file.
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dos2unix /mnt/c/Github-Projects/ML_pipeline/bin/build-dataset
+dos2unix: converting file /mnt/c/Github-Projects/ML_pipeline/bin/build-dataset to Unix format...
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-dataset
+Running stage 'build-dataset':                                                                                                                                              
+> bin/build-dataset
+Traceback (most recent call last):
+  File "/mnt/c/Github-Projects/ML_pipeline/bin/build-dataset", line 3, in <module>
+    from bodyfat import Config, DatasetBuilder, seed_everything
+ImportError: cannot import name 'Config' from 'bodyfat' (unknown location)
+ERROR: failed to reproduce 'build-dataset': failed to run: bin/build-dataset, exited with 1
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-dataset
+Running stage 'build-dataset':                                                                                                                                              
+> bin/build-dataset
+Traceback (most recent call last):
+  File "/mnt/c/Github-Projects/ML_pipeline/bin/build-dataset", line 3, in <module>
+    from bodyfat import Config, DatasetBuilder, seed_everything
+ImportError: cannot import name 'Config' from 'bodyfat' (/mnt/c/Github-Projects/ML_pipeline/bodyfat/__init__.py)
+ERROR: failed to reproduce 'build-dataset': failed to run: bin/build-dataset, exited with 1
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-dataset
+Running stage 'build-dataset':
+> bin/build-dataset
+Traceback (most recent call last):
+  File "/mnt/c/Github-Projects/ML_pipeline/bin/build-dataset", line 3, in <module>
+    from bodyfat import Config, DatasetBuilder, seed_everything
+ImportError: cannot import name 'DatasetBuilder' from 'bodyfat' (/mnt/c/Github-Projects/ML_pipeline/bodyfat/__init__.py)
+ERROR: failed to reproduce 'build-dataset': failed to run: bin/build-dataset, exited with 1
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-dataset
+Running stage 'build-dataset':                                                                                                                                              
+> bin/build-dataset
+Traceback (most recent call last):
+  File "/mnt/c/Github-Projects/ML_pipeline/bin/build-dataset", line 3, in <module>
+    from bodyfat import Config, DatasetBuilder, seed_everything
+  File "/mnt/c/Github-Projects/ML_pipeline/bodyfat/__init__.py", line 2, in <module>
+    from dataset_builder import DatasetBuilder
+ModuleNotFoundError: No module named 'dataset_builder'
+ERROR: failed to reproduce 'build-dataset': failed to run: bin/build-dataset, exited with 1
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-dataset
+Running stage 'build-dataset':
+> bin/build-dataset
+Traceback (most recent call last):
+  File "/mnt/c/Github-Projects/ML_pipeline/bin/build-dataset", line 3, in <module>
+    from bodyfat import Config, DatasetBuilder, seed_everything
+  File "/mnt/c/Github-Projects/ML_pipeline/bodyfat/__init__.py", line 2, in <module>
+    from .dataset_builder import DatasetBuilder
+ModuleNotFoundError: No module named 'bodyfat.dataset_builder'
+ERROR: failed to reproduce 'build-dataset': failed to run: bin/build-dataset, exited with 1
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-dataset
+Running stage 'build-dataset':
+> bin/build-dataset
+Traceback (most recent call last):
+  File "/mnt/c/Github-Projects/ML_pipeline/bin/build-dataset", line 14, in <module>
+    main()
+  File "/mnt/c/Github-Projects/ML_pipeline/bin/build-dataset", line 10, in main
+    DatasetBuilder().build(db_path, Config.Path.DATA_DIR / "processed")
+  File "/mnt/c/Github-Projects/ML_pipeline/bodyfat/data/dataset_builder.py", line 23, in build
+    df = self.read_sql(database_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Github-Projects/ML_pipeline/bodyfat/data/dataset_builder.py", line 29, in read_sql
+    with sqlite3.connect(data_path) as connection:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+ERROR: failed to reproduce 'build-dataset': failed to run: bin/build-dataset, exited with 1
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-dataset
+Running stage 'build-dataset':
+> bin/build-dataset
+Traceback (most recent call last):
+  File "/home/shijie/.cache/pypoetry/virtualenvs/bodyfat-guHOq8YH-py3.11/lib/python3.11/site-packages/pandas/io/sql.py", line 2674, in execute
+    cur.execute(sql, *args)
+sqlite3.OperationalError: no such table: bodyfat
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Github-Projects/ML_pipeline/bin/build-dataset", line 14, in <module>
+    main()
+  File "/mnt/c/Github-Projects/ML_pipeline/bin/build-dataset", line 10, in main
+    DatasetBuilder().build(db_path, Config.Path.DATA_DIR / "processed")
+  File "/mnt/c/Github-Projects/ML_pipeline/bodyfat/data/dataset_builder.py", line 23, in build
+    df = self.read_sql(database_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Github-Projects/ML_pipeline/bodyfat/data/dataset_builder.py", line 30, in read_sql
+    return pd.read_sql_query("SELECT * FROM bodyfat", connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shijie/.cache/pypoetry/virtualenvs/bodyfat-guHOq8YH-py3.11/lib/python3.11/site-packages/pandas/io/sql.py", line 526, in read_sql_query
+    return pandas_sql.read_query(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shijie/.cache/pypoetry/virtualenvs/bodyfat-guHOq8YH-py3.11/lib/python3.11/site-packages/pandas/io/sql.py", line 2738, in read_query
+    cursor = self.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shijie/.cache/pypoetry/virtualenvs/bodyfat-guHOq8YH-py3.11/lib/python3.11/site-packages/pandas/io/sql.py", line 2686, in execute
+    raise ex from exc
+pandas.errors.DatabaseError: Execution failed on sql 'SELECT * FROM bodyfat': no such table: bodyfat
+ERROR: failed to reproduce 'build-dataset': failed to run: bin/build-dataset, exited with 1
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-dataset
+Running stage 'build-dataset':
+> bin/build-dataset
+Generating lock file 'dvc.lock'
+Updating lock file 'dvc.lock'                                                                                                                                               
+
+To track the changes with git, run:
+
+        git add artifacts/data/.gitignore dvc.lock
+
+To enable auto staging, run:
+
+        dvc config core.autostage true
+Use `dvc push` to send your updates to remote storage.
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ git init
+Reinitialized existing Git repository in /mnt/c/Github-Projects/ML_pipeline/.git/
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .dvc/.gitignore
+        new file:   .dvc/config
+        new file:   .dvcignore
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .dvc/config
+        modified:   Exploratory_data_analysis.ipynb
+        deleted:    bodyfat.sqlite
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        artifacts/
+        bin/
+        bodyfat/
+        dvc.lock
+        dvc.yaml
+        params.yaml
+        poetry.lock
+        pyproject.toml
+
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc push
+Collecting                                                                                                                                        |5.00 [00:00,  144entry/s]Pushing
+6 files pushed
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc status
+Data and pipelines are up to date.
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-features
+Stage 'build-dataset' didn't change, skipping
+Running stage 'build-features':
+> bin/build-features
+/usr/bin/env: ‘python\r’: No such file or directory
+ERROR: failed to reproduce 'build-features': failed to run: bin/build-features, exited with 127
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-dataset
+Stage 'build-dataset' didn't change, skipping
+Data and pipelines are up to date.
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc push
+Collecting                                                                                                                                        |6.00 [00:00,  173entry/s]
+Pushing
+Everything is up to date.                                                                                                                                                   
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-features
+Stage 'build-dataset' didn't change, skipping                                                                                                                               
+Running stage 'build-features':
+> bin/build-features
+/usr/bin/env: ‘python\r’: No such file or directory
+ERROR: failed to reproduce 'build-features': failed to run: bin/build-features, exited with 127
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dos2unix /mnt/c/Github-Projects/ML_pipeline/bin/build-features
+dos2unix: converting file /mnt/c/Github-Projects/ML_pipeline/bin/build-features to Unix format...
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-features
+Stage 'build-dataset' didn't change, skipping
+Running stage 'build-features':
+> bin/build-features
+Traceback (most recent call last):
+  File "/mnt/c/Github-Projects/ML_pipeline/bin/build-features", line 3, in <module>
+    from bodyfat import Config, FeatureBuilder
+ImportError: cannot import name 'FeatureBuilder' from 'bodyfat' (/mnt/c/Github-Projects/ML_pipeline/bodyfat/__init__.py)
+ERROR: failed to reproduce 'build-features': failed to run: bin/build-features, exited with 1
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro build-features
+Stage 'build-dataset' didn't change, skipping
+Running stage 'build-features':
+> bin/build-features
+Updating lock file 'dvc.lock'                                                                                                                                               
+                                                                                                                                                                            
+To track the changes with git, run:
+
+        git add artifacts/.gitignore dvc.lock
+
+To enable auto staging, run:
+
+        dvc config core.autostage true
+Use `dvc push` to send your updates to remote storage.
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc add artifacts/models/preprocessor.joblib
+100% Adding...|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████|1/1 [00:00,  7.04file/s]
+                                                                                                                                                                            
+To track the changes with git, run:
+
+        git add artifacts/models/preprocessor.joblib.dvc artifacts/models/.gitignore
+
+To enable auto staging, run:
+
+        dvc config core.autostage true
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc push
+Collecting                                                                                                                                        |9.00 [00:00,  140entry/s]
+Pushing
+5 files pushed                                                                                                                                                              
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dos2unix /mnt/c/Github-Projects/ML_pipeline/bin/train-model
+dos2unix: converting file /mnt/c/Github-Projects/ML_pipeline/bin/train-model to Unix format...
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro train-model
+ERROR: failed to reproduce 'train-model': dependency 'artefacts/data/processed' does not exist
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro train-model
+Stage 'build-dataset' didn't change, skipping                                                                                                                               
+Stage 'build-features' didn't change, skipping
+Running stage 'train-model':
+> bin/train-model
+Traceback (most recent call last):
+  File "/mnt/c/Github-Projects/ML_pipeline/bin/train-model", line 3, in <module>
+    from bodyfat import Config, Dataset, train_model
+  File "/mnt/c/Github-Projects/ML_pipeline/bodyfat/__init__.py", line 4, in <module>
+    from .models import train_model
+ImportError: cannot import name 'train_model' from 'bodyfat.models' (/mnt/c/Github-Projects/ML_pipeline/bodyfat/models/__init__.py)
+ERROR: failed to reproduce 'train-model': failed to run: bin/train-model, exited with 1
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro train-model
+Stage 'build-dataset' didn't change, skipping
+Stage 'build-features' didn't change, skipping
+Running stage 'train-model':
+> bin/train-model
+Traceback (most recent call last):
+  File "/mnt/c/Github-Projects/ML_pipeline/bin/train-model", line 3, in <module>
+    from bodyfat import Config, Dataset, train_model
+  File "/mnt/c/Github-Projects/ML_pipeline/bodyfat/__init__.py", line 4, in <module>
+    from .models import train_model
+ImportError: cannot import name 'train_model' from 'bodyfat.models' (/mnt/c/Github-Projects/ML_pipeline/bodyfat/models/__init__.py)
+ERROR: failed to reproduce 'train-model': failed to run: bin/train-model, exited with 1
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro train-model
+Stage 'build-dataset' didn't change, skipping                                                                                                                               
+Stage 'build-features' didn't change, skipping
+Running stage 'train-model':
+> bin/train-model
+Traceback (most recent call last):
+  File "/mnt/c/Github-Projects/ML_pipeline/bin/train-model", line 3, in <module>
+    from bodyfat import Config, Dataset, train_model
+  File "/mnt/c/Github-Projects/ML_pipeline/bodyfat/__init__.py", line 4, in <module>
+    from .models import train_model
+  File "/mnt/c/Github-Projects/ML_pipeline/bodyfat/models/__init__.py", line 1, in <module>
+    from .trainer import train_model
+ImportError: cannot import name 'train_model' from 'bodyfat.models.trainer' (/mnt/c/Github-Projects/ML_pipeline/bodyfat/models/trainer.py)
+ERROR: failed to reproduce 'train-model': failed to run: bin/train-model, exited with 1
+(bodyfat-py3.11) shijie@Stalla-PC:/mnt/c/Github-Projects/ML_pipeline$ dvc repro train-model
+Stage 'build-dataset' didn't change, skipping
+Stage 'build-features' didn't change, skipping                                                                                                                              
+Running stage 'train-model':
+> bin/train-model
+Traceback (most recent call last):
+  File "/mnt/c/Github-Projects/ML_pipeline/bin/train-model", line 3, in <module>
+    from bodyfat import Config, Dataset, train_model
+  File "/mnt/c/Github-Projects/ML_pipeline/bodyfat/__init__.py", line 4, in <module>
+    from .models import train_model
+  File "/mnt/c/Github-Projects/ML_pipeline/bodyfat/models/__init__.py", line 1, in <module>
+    from .trainer import train_model
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────>
+  Experiment   Created    train.rmse   train.r2   val.rmse    val.r2   random_seed   data.test_size   features.numerical                               features.categorical>
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────>
+  workspace    -              4.0249    0.68621     5.3754   0.60962   42            0.2              ['age', 'hip', 'abdomen', 'BAI', 'WHR', 'BMI']   ['sex']             >
+  main         06:25 PM       4.0249    0.68621     5.3754   0.60962   42            0.2              ['age', 'hip', 'abdomen', 'BAI', 'WHR', 'BMI']   ['sex']             >
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────>
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)

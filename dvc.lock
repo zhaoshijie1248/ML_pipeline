@@ -56,6 +56,6 @@ stages:
     params:
       params.yaml:
         model:
-          n_estimators: 10
+          n_estimators: 30
           max_depth: 2
-          learning_rate: 0.05
+          learning_rate: 0.1
