@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+ 
+from bodyfat import Config, DatasetBuilder, seed_everything
+ 
+seed_everything()
+ 
+ 
+def main():
+    db_path = Config.Path.DATA_DIR / "raw" / "bodyfat.db"
+    DatasetBuilder().build(db_path, Config.Path.DATA_DIR / "processed")
+ 
+ 
+if __name__ == "__main__":
+    main()

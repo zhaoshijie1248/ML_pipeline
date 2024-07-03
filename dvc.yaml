@@ -1,0 +1,11 @@
+stages:
+  build-dataset:
+    cmd: bin/build-dataset
+    deps:
+      - artifacts/data/raw
+      - bin/build-dataset
+    outs:
+      - artifacts/data/processed
+    params:
+      - data
+  

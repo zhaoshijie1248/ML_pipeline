@@ -1,0 +1,24 @@
+schema: '2.0'
+stages:
+  build-dataset:
+    cmd: bin/build-dataset
+    deps:
+    - path: artifacts/data/raw
+      hash: md5
+      md5: 1dad86c61539a9c90bce6c24335b99a4.dir
+      size: 57344
+      nfiles: 2
+    - path: bin/build-dataset
+      hash: md5
+      md5: a08b09e7377c5115e2ac472b55894991
+      size: 291
+    params:
+      params.yaml:
+        data:
+          test_size: 0.2
+    outs:
+    - path: artifacts/data/processed
+      hash: md5
+      md5: a93f385a3bf967bfe9b740da91de9b72.dir
+      size: 48304
+      nfiles: 4

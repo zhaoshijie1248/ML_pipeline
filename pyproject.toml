@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "bodyfat"
+version = "0.1.0"
+description = ""
+authors = ["Venelin Valkov"]
+license = "MIT"
+readme = "README.md"
+ 
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+scikit-learn = "^1.4.1.post1"
+xgboost = "^2.0.3"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+pydantic = "^2.6.4"
+dvc = "^3.48.4"
+pandas = "^2.2.1"
+ 
+ 
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.2"
+pyarrow = "^15.0.1"
+fastparquet = "^2024.2.0"
+tqdm = "^4.66.2"
+jupyterlab = "^4.1.5"
+matplotlib = "^3.8.3"
+seaborn = "^0.13.2"
+dvclive = "^3.45.0"
+ruamel-yaml = "^0.18.6"
+python-box = {version = "^5.0.0", extras = ["ruamel.yaml"]}
+ 
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+ 
+
